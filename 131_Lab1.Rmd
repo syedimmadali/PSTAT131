@@ -9,4 +9,30 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-This is an example push
+Example 1
+```{r}
+library(ISLR)
+library(tidyverse)
+library(tibble)
+
+data("Auto")
+Auto = as_tibble(Auto)
+
+# Basic filter of one variable
+filter(Auto, mpg == 15)
+
+#Can specify multiple variables to filter by.
+filter(Auto, mpg == 15, displacement > 350)
+```
+
+
+```{r}
+#Using select function to select those variables
+
+select(Auto, mpg, displacement)
+
+#Can also select from column names as a sequence
+select(Auto, mpg:weight)
+```
+
+First lab, we used the filter function and installed the tibble package. 
