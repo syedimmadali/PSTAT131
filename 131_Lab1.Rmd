@@ -1,43 +1,12 @@
 ---
 title: "131_Lab1"
+author: Immad Ali
 output: html_document
+
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-```{r}
-x <- c(1, 2, 3, 4)
-x
-
-mean(x)
-```
-
-This is a second update to my Lab1 file
-
-```{r}
-y <- c(1, 2, 5, 7,9, 22)
-
-mean(y)
-
-```
-
-Another Update for this repo
-
-
-
-```{r}
-x <- 1
-y <- 2
-
-x + y
-```
-
-
-
-
-
-Example push
-dvnjdsvbdsjvds
-
+This is an example push
