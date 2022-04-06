@@ -36,3 +36,34 @@ select(Auto, mpg:weight)
 ```
 
 First lab, we used the filter function and installed the tibble package. 
+
+
+# Basics of Data Processing
+
+```{r, eval = TRUE}
+# install.packages("tidyverse")
+# install.packages("tidymodels")
+# install.packages("ISLR")
+
+library(tidyverse)
+library(tidymodels)
+library(ISLR)
+```
+
+Selecting observations by their value :
+
+```{r}
+filtered_mpg <- mpg %>%
+  filter(class == "compact" & manufacturer == "audi")
+```
+
+
+On our Own:
+
+```{r}
+install.packages("nycflights13")
+library(nycflights13)
+
+
+```
+
