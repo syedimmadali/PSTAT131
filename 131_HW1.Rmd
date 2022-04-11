@@ -2,7 +2,9 @@
 title: "131_HW1"
 author: "Immad Ali"
 date: "4/3/2022"
-output: html_document
+output:
+  html_document: default
+  pdf: default
 ---
 
 ```{r setup, include=FALSE}

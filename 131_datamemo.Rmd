@@ -1,0 +1,32 @@
+---
+title: "131_DataMemo"
+author: "Immad Ali"
+date: "4/10/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Overview of Dataset
+
+For my data project, I want to predict how likely a game is to be won given key variables. I am a avid player of the Massive Online Battle Arena (MOBA) game, known as League of Legends (LoL). I got inspiration from the fact that I often times play ranked games in which a skill level is handed out to the player. 
+
+**What does it Include?**
+The data set I am using is gathered from the developers API, Riot Games. Inside the dataset, there are 19 variables for each time, total 38. The dataset includes things like how much gold was earned, number of kills for each team, in addition to others. The dataset includes the variables for the first 10 minutes of high ranking games. 
+
+**Where and how will you be obtaining it? Include the link and source.**
+As mentioned above, I obtained my data set through Kaggle. The user Michel's Fanboi scrapped the data from Riot Game's official API and then uploade the dataset to Kaggle.  
+
+https://www.kaggle.com/datasets/bobbyscience/league-of-legends-diamond-ranked-games-10-min
+
+
+**About how many observations? How many predictors?**
+There are 9879 observations in the data set and there are 38 predictors.
+
+
+
+About how many observations? How many predictors?
+What types of variables will you be working with?
+Is there any missing data? About how much? Do you have an idea for how to handle it?
